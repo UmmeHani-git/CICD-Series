@@ -34,5 +34,5 @@ jobs:
       - name: Push changes
         if: github.actor != 'github-actions[bot]'
         run: |
-          git checkout master
-          git push origin master
+          git checkout main
+          git push origin main
