@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   git-job:
-    runs-on: [self-hosted, terraform, git]
+    runs-on: [self-hosted, terraform]
 
     steps:
       - name: Checkout repository
